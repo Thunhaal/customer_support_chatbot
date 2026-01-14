@@ -1,96 +1,148 @@
-# Customer Support Chatbot 🤖
+<h1 align="center">🤖 Customer Support Chatbot</h1>
 
-This project is a customer support chatbot developed as part of **Machine Learning Task 3** under the **Future Interns Internship Program**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Future%20Interns-ML%20Task%203-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-Dialogflow-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Deployment-Telegram-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
 
-The chatbot is designed to handle common customer queries such as greetings, order tracking, refund status, account issues, and contact support requests using **Dialogflow**. It is deployed live on **Telegram** and also enabled with **Web Demo integration**.
-
----
-
-## 🔍 Project Overview
-
-Customer support chatbots are widely used by companies to provide instant assistance to users. This chatbot simulates a real-world support assistant capable of responding to frequently asked questions 24/7.
-
-The project focuses on:
-- Intent-based conversation design
-- Real-world customer query handling
-- Multi-platform deployment
+<p align="center">
+  🚀 A real-world customer support chatbot with live deployment and multi-platform integration
+</p>
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 📌 About the Project
 
-- **Dialogflow (ES)** – Chatbot creation and intent management  
+This project is a **Customer Support Chatbot** developed as part of  
+🎯 **Machine Learning Task 3** under the **Future Interns Internship Program**.
+
+The chatbot is designed to handle **common customer queries** such as:
+- Greetings 👋  
+- Order tracking 📦  
+- Refund status 💸  
+- Account issues 🔐  
+- Contacting support 📞  
+
+It is built using **Dialogflow**, deployed live on **Telegram**, and enabled with **Web Demo integration**.
+
+---
+
+## 🔍 Project Highlights
+
+✨ Intent-based conversational design  
+✨ Real-world customer support use case  
+✨ Live Telegram deployment  
+✨ Website-style chatbot embedding  
+✨ Clean GitHub documentation  
+
+---
+
+## 🛠️ Tools & Technologies
+
+<p>
+  <img src="https://img.shields.io/badge/Dialogflow-FF9800?style=flat-square&logo=google">
+  <img src="https://img.shields.io/badge/Telegram%20Bot-2CA5E0?style=flat-square&logo=telegram">
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle">
+  <img src="https://img.shields.io/badge/Web%20Demo-4CAF50?style=flat-square">
+</p>
+
+- **Dialogflow (ES)** – Intent creation & NLP handling  
 - **Telegram Bot API** – Live chatbot deployment  
-- **Kaggle Datasets** – Understanding real customer support queries  
-- **Web Demo Integration** – Website-style chatbot embedding  
+- **Kaggle Datasets** – Understanding real customer queries  
+- **Web Demo Integration** – Website-style embedding  
 
 ---
 
 ## 📂 Dataset Reference
 
-The following public datasets were used **only for understanding customer query patterns**:
+📊 Public datasets were reviewed **only for understanding query patterns**:
 
-- Customer Support on Twitter (Kaggle)
-- Simple Dialogs for Chatbot (Kaggle)
+- 🐦 Customer Support on Twitter (Kaggle)  
+- 💬 Simple Dialogs for Chatbot (Kaggle)  
 
-No raw dataset was directly uploaded to the chatbot.
+> ⚠️ No raw dataset was uploaded or used to train a machine learning model.
 
 ---
 
 ## 💬 Chatbot Intents Implemented
 
-The chatbot includes the following intents:
-
-1. **Greeting** – Welcomes the user  
-2. **Order_Status** – Handles order tracking queries  
-3. **Refund_Status** – Answers refund-related questions  
-4. **Account_Issue** – Resolves login and account access issues  
-5. **Contact_Support** – Provides customer support contact details  
-6. **Default Fallback** – Handles unknown or unsupported queries  
+| Intent Name | Description |
+|------------|-------------|
+| 👋 Greeting | Welcomes the user |
+| 📦 Order_Status | Handles order tracking |
+| 💸 Refund_Status | Refund-related queries |
+| 🔐 Account_Issue | Login & account problems |
+| 📞 Contact_Support | Customer support details |
+| ❓ Default Fallback | Unknown queries |
 
 ---
 
-## 🚀 Deployment Details
+## 🚀 Deployment & Testing
 
 ### ✅ Dialogflow Console Testing
-All intents were tested using Dialogflow’s built-in test console to verify correct intent matching and responses.
+All intents were tested using Dialogflow’s built-in test console to ensure correct intent matching.
+
+📸 Screenshot available in `screenshots/testing.png`
+
+---
 
 ### ✅ Telegram Bot Deployment
-The chatbot was deployed live on Telegram, allowing users to interact with it in real time.
+The chatbot is **live on Telegram** and responds in real time.
 
-Example queries tested:
-- Hi  
-- Where is my order  
-- I want a refund  
-- Random text  
+🧪 Sample queries tested:
+- `Hi`
+- `Where is my order`
+- `I want a refund`
+- `Random text`
 
-### ✅ Web Demo Integration
-Web Demo integration was enabled to allow website embedding.  
-Due to Dialogflow ES legacy iframe restrictions, the public embed link may not render consistently across browsers, but the integration is correctly enabled.
+📸 Screenshot available in `screenshots/telegram.png`
+
+---
+
+### 🌐 Web Demo Integration
+Web Demo integration was enabled to allow website embedding.
+
+⚠️ Due to **Dialogflow ES legacy iframe restrictions**, the public embed link may not render consistently across all browsers.  
+However, the integration is correctly enabled.
+
+📸 Screenshot available in `screenshots/webdemo.png`
 
 ---
 
 ## 📸 Screenshots
 
-Screenshots demonstrating:
-- Dialogflow intents
-- Intent configuration
-- Testing results
-- Telegram chatbot interaction
-- Web Demo integration
-
-are available in the `screenshots/` folder.
+All relevant screenshots are available in the 📁 **`screenshots/`** folder:
+- Dialogflow intents  
+- Intent configuration  
+- Testing results  
+- Telegram chatbot interaction  
+- Web Demo integration  
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates the practical implementation of a customer support chatbot using Dialogflow, covering intent design, conversation flow, testing, and real-world deployment through Telegram.
+This project demonstrates the **practical implementation of a customer support chatbot** using Dialogflow, covering:
+
+✔ Intent design  
+✔ Conversation flow  
+✔ Testing & validation  
+✔ Real-world deployment via Telegram  
+
+It reflects how conversational AI is used in **real customer support systems**.
 
 ---
 
 ## 👤 Author
 
-**Your Name**  
-Machine Learning Intern – Future Interns  
-B.Tech Robotics & Artificial Intelligence
+**S. T. Thunhaal**  
+🎓 B.Tech Robotics & Artificial Intelligence  
+🤖 Machine Learning Intern – Future Interns  
+
+---
+
+<p align="center">
+  ⭐ If you like this project, give it a star!
+</p>
